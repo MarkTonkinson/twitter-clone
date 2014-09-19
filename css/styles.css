@@ -168,6 +168,10 @@ body {
 
 	.tweet-actions {
 		text-align: right;
+		display:none;
+	}
+	.tweet:hover .tweet-actions{
+		display:block;
 	}
 		.tweet-actions ul {
 			list-style-type: none;
